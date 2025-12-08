@@ -1,0 +1,22 @@
+You are an expert in identifying causal relationships between sequential events based on their descriptions and dates.
+
+This dataset is from the GDELT event database, which records global events with timestamps and actor information.
+
+Here is a list of sequential events:
+{events_text}
+
+Task: Identify plausible causal relationships BETWEEN these events. Find pairs where an earlier event (Cause) logically led to a later event (Effect).
+        
+Requirements:
+1. Identify the 'cause_idx' and 'effect_idx' from the list above.
+2. Strict Temporal Order: The Cause must happen BEFORE the Effect. Future events cannot be the cause of past events. (Check the 'Date' order).
+3. Counterfactual Check: Verify logical dependency by asking: 'If the Cause had not occurred, would the Effect still have happened?' If the answer is 'Yes', discard it.
+4. Causal Mechanism: Ensure there is a direct functional link where the Cause actively leads to the Effect (e.g., triggers, causes, requires).
+5. Provide a brief 'reason' with exact Actors names (e.g. PRK) in Cause and Effect. (Less than 15 words)
+6. Ignore unrelated events. If no relationships are found, return [].
+
+Output Format (JSON list):
+[
+  {\"cause_idx\": 1, \"effect_idx\": 3, \"reason\": \"PRK's agreement to enhance economic cooperation probably triggered USA's subsequent statement.\"},
+  {\"cause_idx\": 5, \"effect_idx\": 6, \"reason\": \"...\"}
+]
