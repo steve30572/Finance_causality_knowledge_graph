@@ -1,4 +1,4 @@
-This is the project for generating causal knowledge graph
+# Finance causality knowledge graph
 
 # Step 1
 
