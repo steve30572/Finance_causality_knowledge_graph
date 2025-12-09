@@ -1,0 +1,62 @@
+{
+  "GDELT_REGION_CODES": {
+    "AFR": "Africa",
+    "ASA": "Asia",
+    "EUR": "Europe",
+    "MEA": "Middle East & North Africa",
+    "XAF": "Sub-Saharan Africa",
+    "XAS": "East & Southeast Asia",
+    "XME": "Middle East",
+    "XEU": "European region",
+    "SAF": "South Africa region",
+    "WAF": "West Africa",
+    "EAF": "East Africa"
+  },
+
+  "identity_map": {
+    "CHR": "Christian",
+    "MOS": "Muslim",
+    "JEW": "Jewish",
+    "BUD": "Buddhist",
+    "HIN": "Hindu",
+    "PRO": "Protestant"
+  },
+
+  "org_map": {
+    "NGO": "Non-Governmental Organization",
+    "IGO": "Inter-Governmental Organization",
+    "MNC": "Multinational Corporation",
+    "IMG": "Migrant Group",
+    "UNO": "United Nations Organization",
+    "WBK": "World Bank Group",
+    "ADB": "Asian Development Bank",
+    "DEV": "Development Organization"
+  },
+
+  "role_map": {
+    "GOV": "Government",
+    "MIL": "Military",
+    "BUS": "Business Sector",
+    "CVL": "Civilian Group",
+    "HLH": "Health Sector",
+    "EDU": "Education Sector",
+    "JUD": "Judiciary",
+    "REL": "Religious Organization",
+    "LAB": "Labor Union",
+    "COP": "Police",
+    "OPP": "Opposition Group",
+    "REF": "Refugee Group",
+    "AGR": "Agricultural Sector",
+    "MED": "Medical Sector",
+    "PTY": "Political Party",
+    "HRI": "Human Rights Organization",
+    "ELI": "Elite",
+    "CRM": "Criminal Organization",
+    "UAF": "Armed Forces",
+    "LEG": "Legislature",
+    "RAD": "Radical Group",
+    "REB": "Rebel Group",
+    "SET": "Settler Group",
+    "SPY": "Intelligence Agency"
+  }
+}
