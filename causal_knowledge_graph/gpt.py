@@ -79,9 +79,6 @@ for num_iter in tqdm(range(100)):
         if openai is not None:
             openai.api_key = OPENAI_API_KEY
             # adjust model and rate settings as needed
-            # MODEL = "gpt-3.5-turbo"  # or "gpt-4" if available in your account
-            # MODEL = "gpt-4.1-nano"  # or "gpt-4" if available in your account
-            # MODEL = "gpt-5-nano"  # or "gpt-4" if available in your account
             delay_between_calls = 1.0  # seconds
 
             prompt_text = prompts
