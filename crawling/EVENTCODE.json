@@ -1,0 +1,53 @@
+{
+  "ECONOMIC_EVENTCODES": [
+    "021", "022", "023", "024", "025",
+    "070", "071", "072", "073", "074", "075", "076", "077",
+    "081", "082", "083", "084", "085", "086", "087", "089",
+    "092", "093", "094", "097",
+    "131", "132", "135", "136", "138",
+    "151", "152", "153", "154", "155"
+  ],
+
+  "EVENTCODE_DESC" = {
+    "021": "Statement of intent regarding economic policy",
+    "022": "Agreement to pursue economic cooperation",
+    "023": "Promise to change or adjust economic policies",
+    "024": "Request for economic support or aid",
+    "025": "Appeal for economic cooperation",
+  
+    "070": "Statement of intent regarding trade actions",
+    "071": "Offer trade concessions",
+    "072": "Implement or announce trade restrictions",
+    "073": "Approve trade agreements",
+    "074": "Reject trade agreements",
+    "075": "Engage in economic or trade negotiations",
+    "076": "Announce economic cooperation or joint actions",
+    "077": "Implement economic actions or agreements",
+  
+    "081": "Provide economic aid",
+    "082": "Request economic aid",
+    "083": "Condemn or criticize economic actions",
+    "084": "Express dissatisfaction with economic situation or actions",
+    "085": "Reduce economic assistance",
+    "086": "Halt economic assistance",
+    "087": "Resume or restart economic assistance",
+    "089": "Provide financial or humanitarian aid",
+  
+    "092": "Impose economic sanctions, embargo, or boycott",
+    "093": "Reduce or halt economic assistance",
+    "094": "Lift or remove sanctions",
+    "097": "Issue economic threats or warnings",
+  
+    "131": "Reduce economic relations",
+    "132": "Terminate economic cooperation",
+    "135": "Resume economic cooperation",
+    "136": "Expand economic relations",
+    "138": "Agree to enhance economic cooperation",
+  
+    "151": "Announce fiscal or monetary policy measures",
+    "152": "Change interest rates",
+    "153": "Conduct market intervention",
+    "154": "Make public statements regarding currency or exchange rates",
+    "155": "Implement price controls or market regulations"
+  }
+}
