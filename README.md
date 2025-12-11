@@ -33,3 +33,15 @@ Once causal pairs are validated, the system transforms the unstructured text and
 This structured format allows for graph-based queries and multi-hop reasoning in downstream financial analysis.
 
 ---
+
+## File structure
+
+Finance_causality_knowledge_graph/
+```
+├── causal_knowledge_graph/                     
+│   └── prompts/
+│        └── v7.txt                # Prompts for causality detection
+├── crawling/                      # Crawling code for GDELT Finance Events
+├── causality_test/                # Demo for causality testing
+└── README.md     
+```
