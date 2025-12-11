@@ -88,8 +88,8 @@ def extract_economic_events(df, ECONOMIC_EVENTCODES):
     df["datetime"] = pd.to_datetime(df["col_1"], format="%Y%m%d", errors="coerce")
 
     # Actor1/Actor2 (간단 버전)
-    df["actor1"] = df["col_5"].fillna("") + "|" + df["col_6"].fillna("")
-    df["actor2"] = df["col_15"].fillna("") + "|" + df["col_16"].fillna("")
+    df["actor1"] = df["col_5"].fillna("") + df["col_6"].fillna("")
+    df["actor2"] = df["col_15"].fillna("") + df["col_16"].fillna("")
 
     # URL ( 뉴스 원문 링크 )
     df["url"] = df["col_60"]
