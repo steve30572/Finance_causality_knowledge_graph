@@ -1,5 +1,5 @@
 # Finance causality knowledge graph
-This project aims to construct a **Finance Causality Knowledge Graph** by analyzing global events. Leveraging the **GDELT (Global Database of Events, Language, and Tone)** dataset, this system detects causal relationships between various events and structures them into knowledge graph triples (Subject, Predicate, Object).
+This project aims to construct a **Finance Causality Knowledge Graph** by analyzing global events. Leveraging the **[GDELT (Global Database of Events, Language, and Tone)](https://www.gdeltproject.org/)** dataset, this system detects causal relationships between various events and structures them into knowledge graph triples (Subject, Predicate, Object).
 
 The goal is to provide a structured representation of how global events influence financial dynamics through verified causal links.
 
