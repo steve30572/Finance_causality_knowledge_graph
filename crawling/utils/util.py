@@ -79,3 +79,19 @@ def download_gdelt_files(days=1, out_dir="gdelt_raw"):
 
     print(f"[INFO] 다운로드 완료: {len(downloaded)}개 파일")
     return downloaded
+
+def extract_economic_events(df, ECONOMIC_EVENTCODES):
+    """경제 EventCode만 선택하고 datetime & actor 정리"""
+    df = df[df["col_26"].astype(str).isin(ECONOMIC_EVENTCODES)]
+
+    # 날짜 처리
+    df["datetime"] = pd.to_datetime(df["col_1"], format="%Y%m%d", errors="coerce")
+
+    # Actor1/Actor2 (간단 버전)
+    df["actor1"] = df["col_5"].fillna("") + "|" + df["col_6"].fillna("")
+    df["actor2"] = df["col_15"].fillna("") + "|" + df["col_16"].fillna("")
+
+    # URL ( 뉴스 원문 링크 )
+    df["url"] = df["col_60"]
+
+    return df
