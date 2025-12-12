@@ -44,5 +44,6 @@ Finance_causality_knowledge_graph/
 |   └── data /                     # Data obtained by running LLM with prompt written in prompts/v7.txt
 ├── crawling/                      # Crawling code for GDELT Finance Events
 ├── causality_test/                # Demo for causality testing
+|   └── data /                     # Example of how to organize the result of causality test
 └── README.md     
 ```
