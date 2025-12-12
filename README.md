@@ -39,8 +39,9 @@ This structured format allows for graph-based queries and multi-hop reasoning in
 Finance_causality_knowledge_graph/
 ```
 ├── causal_knowledge_graph/                     
-│   └── prompts/
-│        └── v7.txt                # Prompts for causality detection
+│   ├── prompts/
+│   |    └── v7.txt                # Prompts for causality detection
+|   └── data /                     # Data obtained by running LLM with prompt written in prompts/v7.txt
 ├── crawling/                      # Crawling code for GDELT Finance Events
 ├── causality_test/                # Demo for causality testing
 └── README.md     
